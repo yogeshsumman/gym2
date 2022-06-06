@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST FITNESS</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <style>
+        /* css reset */
+        body {
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url("image/img.jpg");
+            height: 4544 px;
+        }
+
+        .left {
+            display: inline-block;
+            border: 2px solid red;
+            position: absolute;
+            left: 30px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 100px;
+            filter: invert(100);
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            border: 2px solid blue;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 30px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid rgb(143, 250, 114);
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: azure;
+            text-decoration: none;
+            padding: 36px 25px;
+            border-radius: 12px;
+        }
+
+        .navbar li a:hover,
+        navbar li a:active {
+            text-decoration: underline;
+            color: greenyellow;
+
+        }
+
+        .btn {
+            text-align: center;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            font-weight: bold;
+            margin: auto;
+            padding: 10px;
+            background-color: rgb(26 139 252 / 29%);
+            cursor: pointer;
+            color: white;
+            font-size: 17px;
+        }
+
+        .btn :hover {
+            text-decoration: underline;
+            background-color: rgb(197, 194, 189);
+        }
+        .btn a:hover {
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="image/img3.jpg" alt="">
+            <div>FAST FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href='https://www.zomato.com/'>HOME</a></li>
+                <li><a href='#'>ABOUT US</a></li>
+                <li><a href='#'>FITNESS CALCULATOR</a></li>
+                <li><a href='#'>CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><a>about us</a></button>
+            <button class="btn"><a>know more</a></button>
+        </div>
+    </header>
+</body>
+
+</html>

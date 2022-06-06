@@ -1,0 +1,36 @@
+#a{
+    background-color: aqua;
+}
+.navbar{
+   background-color: rgb(0, 0, 0);
+   border-radius: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 16px 36px;
+ }
+ .navbar li a{
+     padding: 3px 3px;
+     text-decoration: none;
+     color: aliceblue;
+     font-size: 21px;
+     
+ }
+ .navbar li a:hover{
+    background-color: darkgray;
+    
+}
+ .search{
+     float: right;
+     padding: 16px 23px;
+ }
+ .navbar input{
+     border-radius: 20px;
+     padding: 6px 11px;
+     width: 142px;
+ }
+ 
