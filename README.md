@@ -1,2 +1,2 @@
 # gym2
-This is the front page of my gym website
+This is The Front Page Of my gym website
